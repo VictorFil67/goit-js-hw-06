@@ -15,7 +15,7 @@ const images = [
 
 function imageTamplate(image) {
 const {url, alt} = image;
-return `<li class="image-item"><img class="image" width="1260" heigth="750" url=${url} alt=${alt}></li>`;
+return `<li class="image-item"><img class="image" width="1260" heigth="750" src="${url}" alt="${alt}"></li>`;
 }
 
 function galleryTamplate(images) {
